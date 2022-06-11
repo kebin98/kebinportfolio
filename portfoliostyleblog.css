@@ -1,0 +1,359 @@
+body {
+	background-image: url("mallowback.png");
+	background-repeat: repeat;
+	background-size: 10em;
+	background-position: center top;
+	background-color: black;
+}
+.dropdown:hover .dropdown-content
+{
+	display:block;
+}
+
+.dropdown
+{
+	position: relative;
+	left: 95%;
+	top: -0.5em;
+	display: block;
+	width: 1em;
+	opacity: 50%;
+}
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: -1em;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover{
+  display: block;
+  opacity: 100%
+}
+
+.navbar
+{
+	z-index: 0;
+	display:block;
+	margin: auto;
+	background-color: #a19954;
+	font-size: 1em;
+	opacity: 50%;
+	padding: 1em;
+	position: relative;
+	height: 1em;
+	border: 1px solid white;
+}
+
+.navbar:hover {
+  opacity: 90%;
+}
+
+dropdown-content:a
+{
+	float: right;
+	padding-right: 1em;
+}
+
+.navlogo
+{
+	z-index: 1;
+	width: 20em;
+	height: auto;
+	position: relative;
+	top: -4em;
+	opacity: 100%;
+	max-width: 80%;
+}
+.wtitlemain
+{
+	font-size: 3em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: center;
+	overflow-x: hidden;
+	text-decoration: underline;
+	margin: auto;
+	max-width: 60%;
+}
+.wsubtwo
+{
+	font-size: 1.5em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: left;
+	overflow-x: hidden;
+
+	max-width: 60%;
+	margin: auto;
+}
+.wtitle
+{
+	font-size: 2em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: center;
+	overflow-x: hidden;
+	text-decoration: underline;
+	width: 25em;
+	margin: auto;
+	max-width: 80%;
+}
+.wsub
+{
+	font-size: calc(0.5em + 0.3vw);
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: left;
+	overflow-x: hidden;
+
+	width: calc(125em - 25vw);
+	max-width: 80%;
+	margin: auto;
+}
+.wlink
+{
+	font-size: calc(0.5em + 0.3vw);
+	color: yellow;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: left;
+	overflow-x: hidden;
+
+	width: calc(125em - 25vw);
+	max-width: 80%;
+	margin: auto;
+}
+.wlink:hover
+{
+	color:blue;
+}
+.wedsub
+{
+	font-size: calc(1.2em + 0.3vw);
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: left;
+	overflow-x: hidden;
+
+	width: calc(125em - 25vw);
+	max-width: 80%;
+	margin: auto;
+}
+.gif
+{
+	z-index: 1;
+	display:block;
+	height: auto;
+	position: relative;
+	top: 0em;
+	opacity: 100%;
+	margin: auto;
+	width: 50em;
+	max-width: 80%;
+
+}
+.portrait:hover
+{
+	background-image: url("portraitx.png");
+}
+
+
+.wsubthree:hover
+{
+	opacity: 100%;
+}
+
+.footer
+{
+	font-size: 2em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 5em;
+	text-align: center;
+}
+
+.copyright
+{
+	font-size: 1em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 15em;
+	margin: auto;
+	display: block;
+	text-align: left;
+	overflow-x: hidden;
+	padding-bottom: 3em;
+	width: 80%;
+
+}
+.icons
+{
+	position: relative;
+	top: 22em;
+	left: 2.5em;
+	display: block;
+	margin: auto;
+	max-width: 3em;
+	padding: 1.5em;
+	height: auto;
+	float:left;
+	opacity: 50%;
+	overflow-x: hidden;
+}
+
+.icons:hover{
+	display: block;
+	opacity: 100%;
+	max-width:3.5em;
+}
+
+.column
+{
+	position: relative;
+	top: 10em;
+	width: 50%;
+	float: left;
+	height: 50em;
+
+}
+
+.login
+{
+	position: relative;
+	top: 5em;
+	width: 80%;
+	float: left;
+	height: 20em;
+	max-width: 20%;
+	border: 1px solid white;
+}
+
+.columnmain
+{
+	position: relative;
+	top: 5em;
+	max-width: 70%;
+	border: 1px solid white;
+	float: left;
+	height: 20em;
+	max-width: 70%;
+}
+.formsection
+{
+	font-size: 0.5em;
+	
+}
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+form
+{
+	position:relative;
+	margin: auto;
+	display: block;
+	color: white;
+	font-family: "LCD Solid";
+	font-size: 1.5em;
+	padding: 2em;
+	width:50%;
+	max-width: 80%;
+}
+input
+{
+	width:20em;
+	margin-top:2em;
+	margin-bottom:2em;
+	display:block;
+	float:none;
+	padding:1em;
+	resize: vertical;
+	max-width: 80%;
+}
+
+.graph
+{
+	margin: auto;
+	display:block;
+	position: relative;
+	top: 20em;
+	width: 90em;
+	max-width: 90%;
+}
+
+@media screen and (max-width: 72em)
+{
+	.column
+	{
+		width: 100%;
+		max-width: 80%;
+	}
+}
+@media screen and (max-width: 100%)
+{
+	.columnmain
+	{
+		width: 50%;
+		max-width: 80%;
+	}
+}
+@media screen and (max-width: 65em)
+{
+	.columnmain
+	{
+		width: 100%;
+		height: auto;
+	}
+
+}
+@media screen and (max-width: 65em)
+{
+	.login
+	{
+		width: 100%;
+		height: auto;
+	}
+
+}
+header
+{
+
+}

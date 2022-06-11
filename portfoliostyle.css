@@ -1,0 +1,250 @@
+body {
+	background-image: url("back_long.png");
+	background-repeat: no-repeat;
+	background-size: 700em;
+	background-position: center top;
+	background-color: black;
+}
+.dropdown:hover .dropdown-content
+{
+	display:block;
+}
+
+.dropdown
+{
+	position: relative;
+	left: 95%;
+	top: -0.5em;
+	display: block;
+	width: 1em;
+	opacity: 50%;
+}
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: -1em;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  max-width: 80%;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover{
+  display: block;
+  opacity: 100%
+}
+
+.navbar
+{
+	z-index: 0;
+	display:block;
+	margin: auto;
+	background-color: #503e75;
+	font-size: 1em;
+	opacity: 50%;
+	padding: 1em;
+	position: relative;
+	height: 1em;
+	border: 1px solid white;
+}
+
+.navbar:hover {
+  opacity: 90%;
+}
+.navlogo:hover {
+  opacity: 90%;
+}
+dropdown-content:a
+{
+	float: right;
+	padding-right: 1em;
+}
+
+.navlogo
+{
+	z-index: 1;
+	width: 20em;
+	height: auto;
+	position: relative;
+	top: -4em;
+	opacity: 50%;
+	max-width: 80%;
+}
+
+.wtitle
+{
+	font-size: max(5em, 10px);
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 2em;
+	text-align: center;
+	overflow-x: hidden;
+	text-decoration: underline;
+}
+.wsub
+{
+	font-size: 3em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 2.5em;
+	text-align: center;
+	overflow-x: hidden;
+}
+
+
+.wsubtwo
+{
+	font-size: 2em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 22em;
+	text-align: center;
+	overflow-x: hidden;
+	text-decoration: underline;
+}
+
+.wsubthree
+{
+	font-size: 1em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 45em;
+	padding: 3em;
+	margin: 3em 3em 3em 3em;
+	border: 1px solid white;
+	
+	text-align: center;
+	overflow-x: hidden;
+	opacity: 55%;
+}
+
+.wsubthree:hover
+{
+	opacity: 100%;
+}
+
+.footer
+{
+	font-size: 2em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 15em;
+	text-align: center;
+}
+
+.copyright
+{
+	font-size: 1em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 15em;
+	margin: auto;
+	display: block;
+	text-align: left;
+	overflow-x: hidden;
+	padding-bottom: 3em;
+	width: 80%;
+
+}
+.icons
+{
+	position: relative;
+	top: 32em;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 2em;
+  
+
+
+	max-width: 2em;
+	padding: 1em;
+	height: auto;
+	float: center-left;
+	
+
+}
+
+.row
+{
+	
+	height: 50em;
+	
+}
+
+.icons:hover{
+	display: block;
+	opacity: 100%;
+	max-width:4em;
+	width:4em;
+}
+
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+form
+{
+	position:relative;
+	margin: auto;
+	display: block;
+	color: white;
+	font-family: "LCD Solid";
+	font-size: 1.5em;
+	padding: 2em;
+	width:50%;
+	max-width: 80%;
+
+}
+input
+{
+	width:20em;
+	margin-top:2em;
+	margin-bottom:2em;
+	display:block;
+	float:none;
+	padding:1em;
+	resize: vertical;
+	max-width: 80%;
+}
+
+@media screen and (max-width: 72em)
+{
+	.column
+	{
+		width: 100%;
+	}
+}
+
+header
+{
+
+}

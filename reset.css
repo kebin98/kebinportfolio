@@ -1,0 +1,20 @@
+html, body, div, span, section,article,aside,footer,header,head,ul,a, h1, h2, h3, h4, h5, h6, p {
+ margin: 0;
+ padding-left: 5px;
+ border: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ color: black;
+ width: auto;
+ height: auto;
+font-family: "LCD Solid";
+position: relative;
+text-align: left;
+overflow-x: hidden;
+display: block;
+top: 0em;
+left: 0em;
+right: 0em;
+bottom: 0em;
+
+}
