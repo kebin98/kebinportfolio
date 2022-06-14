@@ -54,6 +54,7 @@ body {
 
 .navbar
 {
+	font-family: "LCD Solid";
 	z-index: 0;
 	display:block;
 	margin: auto;
@@ -93,13 +94,29 @@ dropdown-content:a
 {
 	font-size: max(5em, 10px);
 	color: white;
+	
 	font-family: "LCD Solid";
+	src: url(LcdSolid-VPzB.ttf);
+	
 	position: relative;
 	top: 2em;
 	text-align: center;
 	overflow-x: hidden;
 	text-decoration: underline;
 }
+
+
+
+@font-face {
+  font-family: 'LCD Solid';
+	src: url(LcdSolid-VPzB.ttf); format('ttf');
+}
+
+
+
+
+
+
 .wsub
 {
 	font-size: 3em;
@@ -173,18 +190,15 @@ dropdown-content:a
 .icons
 {
 	position: relative;
-	top: 32em;
 	 display: block;
 	 margin-left: auto;
 	 margin-right: auto;
 	 width: 2em;
-  
-
-
+	left: 30%;
 	max-width: 2em;
 	padding: 1em;
 	height: auto;
-	float: center-left;
+	float: left;
 	
 
 }
@@ -235,13 +249,87 @@ input
 	resize: vertical;
 	max-width: 80%;
 }
-
-@media screen and (max-width: 72em)
+.columnfooter
 {
-	.column
-	{
-		width: 100%;
+	position: relative;
+	top: 25em;
+	width: 49%;
+	float: left;
+	height: auto;
+}
+.wtitle2
+{
+	font-size: 2em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: center;
+	overflow-wrap: break-word;
+	text-decoration: underline;
+	margin: auto;
+	width: 97%;
+	height: auto;
+}
+@media only screen and (max-width: 768px) 
+{
+ [class*="column"]
+ {
+	top: 12em;
+	position: relative;
+	display: block;
 	}
+ [class*="wtitle"]
+{
+	font-size: 12vw;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: center;
+	overflow-wrap: break-word;
+	text-decoration: underline;
+	margin: auto;
+	width: 98%;
+	height: auto;
+}
+	 [class*="wsub"]
+{
+	font-size: 5vw;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: center;
+	overflow-wrap: break-word;
+	text-decoration: underline;
+	margin: auto;
+	width: 98%;
+	height: auto;
+}
+  [class*="columnfooter"] {
+	position: relative;
+	top: 15em;
+	width: 99%;
+	float: left;
+	height: auto;
+  }
+
+ [class*="wtitle2"]
+{
+	font-size: 5vw;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: center;
+	overflow-wrap: break-word;
+	text-decoration: underline;
+	margin: auto;
+	width: 98%;
+	height: auto;
+}
+
 }
 
 header

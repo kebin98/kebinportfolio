@@ -20,6 +20,10 @@ body {
 	opacity: 50%;
 }
 
+@font-face {
+  font-family: 'LCD Solid';
+	src: url(LcdSolid-VPzB.ttf); format('ttf');
+}
 
 
 
@@ -53,6 +57,7 @@ body {
 
 .navbar
 {
+	font-family: "LCD Solid";
 	z-index: 0;
 	display:block;
 	margin: auto;
@@ -98,20 +103,7 @@ dropdown-content:a
 	
 }
 
-.wtitle
-{
-	font-size: 2em;
-	color: white;
-	font-family: "LCD Solid";
-	position: relative;
-	top: 0em;
-	text-align: center;
-	overflow-x: hidden;
-	text-decoration: underline;
-	width: 25em;
-	margin: auto;
-	max-width: 80%;
-}
+
 .wsub
 {
 	font-size: calc(0.7em + 0.3vw);
@@ -207,24 +199,7 @@ dropdown-content:a
 	width: 80%;
 
 }
-.icons
-{
-	position: relative;
-	top: 9em;
-	 display: block;
-	 margin-left: auto;
-	 margin-right: auto;
-	 width: 2em;
-  
-	left:92%;
 
-	max-width: 2em;
-	padding: 1em;
-	height: auto;
-	float: left;
-	
-
-}
 
 
 .icons:hover{
@@ -248,13 +223,11 @@ dropdown-content:a
 .columnmain
 {
 	position: relative;
-	top: 5em;
-	width: 50%;
+	top: 3em;
+	width: 49%;
 	float: left;
-	height: 50em;
-	max-width: 80%;
+	height: 40em;
 }
-
 .row:after
 {
 	content: "";
@@ -295,33 +268,136 @@ input
 	width: 90em;
 	max-width: 90%;
 }
+.wtitle
+{
+	font-size: 2em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: center;
+	overflow-x: hidden;
+	text-decoration: underline;
+	width: 25em;
+	margin: auto;
+	max-width: 80%;
+	padding: 1em;
+}
+.columnfooter
+{
+	position: relative;
+	top: 25em;
+	width: 49%;
+	float: left;
+	height: auto;
+}
+.wtitle2
+{
+	font-size: 2em;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: center;
+	overflow-wrap: break-word;
+	text-decoration: underline;
+	margin: auto;
+	width: 97%;
+	height: auto;
+}
 
-@media screen and (max-width: 72em)
+
+
+
+.icons
 {
-	.column
-	{
-		width: 100%;
-		max-width: 80%;
-	}
+	position: relative;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 2em;
+	left: 30%;
+	max-width: 2em;
+	padding: 1em;
+	height: auto;
+	float: left;
+	
+
 }
-@media screen and (max-width: 100%)
-{
-	.columnmain
+@media only screen and (max-width: 768px) {
+  [class*="columnmain"] {
+	position: relative;
+	top: 0em;
+	width: 99%;
+	float: left;
+	height: auto;
+  }
+  
+  [class*="columnfooter"] {
+	position: relative;
+	top: 0em;
+	width: 99%;
+	float: left;
+	height: auto;
+  }
+  
+
+
+  
+ [class*="wtitle"]
 	{
-		width: 50%;
-		max-width: 80%;
-	}
-}
-@media screen and (max-width: 65em)
-{
-	.columnmain
-	{
-		width: 100%;
+		font-size: 5vw;
+		color: white;
+		font-family: "LCD Solid";
+		position: relative;
+		top: 0em;
+		text-align: center;
+		overflow-wrap: break-word;
+		text-decoration: underline;
+		margin: auto;
+		width: 98%;
 		height: auto;
 	}
-}
 
-header
+
+   [class*="wtitle2"]
+	{
+		font-size: 5vw;
+		color: white;
+		font-family: "LCD Solid";
+		position: relative;
+		top: 0em;
+		text-align: center;
+		overflow-wrap: break-word;
+		text-decoration: underline;
+		margin: auto;
+		width: 98%;
+		height: auto;
+	}
+[class*="audiotag"]
+	{
+		left:1em;
+		position: relative;
+		display:block;
+		padding: 0.5em;
+		
+	}
+
+}
+.icons
 {
+	position: relative;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 2em;
+	left: 30%;
+	max-width: 2em;
+	padding: 1em;
+	height: auto;
+	float: left;
+	
 
 }
+
+

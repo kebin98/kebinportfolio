@@ -19,7 +19,10 @@ body {
 	width: 1em;
 	opacity: 50%;
 }
-
+@font-face {
+  font-family: 'LCD Solid';
+	src: url(LcdSolid-VPzB.ttf); format('ttf');
+}
 
 
 
@@ -53,6 +56,7 @@ body {
 
 .navbar
 {
+	font-family: "LCD Solid";
 	z-index: 0;
 	display:block;
 	margin: auto;
@@ -92,17 +96,17 @@ dropdown-content:a
 
 .wtitle
 {
-	font-size: 3em;
+	font-size: 2em;
 	color: white;
 	font-family: "LCD Solid";
 	position: relative;
 	top: 0em;
 	text-align: center;
-	overflow-x: hidden;
+	overflow-wrap: break-word;
 	text-decoration: underline;
-	width: 10em;
 	margin: auto;
-	max-width: 80%;
+	width: 97%;
+	height: auto;
 }
 .wsub
 {
@@ -134,21 +138,6 @@ dropdown-content:a
 }
 
 
-.portrait
-{
-
-	position: relative;
-	left:4em;
-	    width: 90%;
-        height: 80%;
-        background: url("portraita.png") no-repeat;
-        display: inline-block;
-
-}
-.portrait:hover
-{
-	background: url("portraitb.png") no-repeat;
-}
 
 
 .wsubthree:hover
@@ -183,37 +172,95 @@ dropdown-content:a
 }
 
 
+
 .column
 {
 	position: relative;
 	top: 3em;
-	width: 50%;
+	width: 100%;
 	float: left;
 	height: 50em;
 	max-width: 80%;
+
+
+}
+
+.portrait
+{
+
+	position: relative;
+	left: 2em;
+	    width: 85%;
+		max-width: 100%;
+        height: auto;
+        display: block;
+
 }
 
 .columnmain
 {
 	position: relative;
-	top: 5em;
-	width: 50%;
+	top: 3em;
+	width: 49%;
 	float: left;
-	height: 45em;
-	max-width: 80%;
+	height: 40em;
 }
+
+.columnfooter
+{
+	position: relative;
+	top: 3em;
+	width: 49%;
+	float: left;
+	height: auto;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  [class*="columnmain"] {
+	position: relative;
+	top: 0em;
+	width: 99%;
+	float: left;
+	height: auto;
+  }
+  
+  [class*="columnfooter"] {
+	position: relative;
+	top: 0em;
+	width: 99%;
+	float: left;
+	height: auto;
+  }
+  
+  
+ [class*="wtitle"]
+{
+	font-size: 5vw;
+	color: white;
+	font-family: "LCD Solid";
+	position: relative;
+	top: 0em;
+	text-align: center;
+	overflow-wrap: break-word;
+	text-decoration: underline;
+	margin: auto;
+	width: 98%;
+	height: auto;
+}
+}
+
+
 
 .icons
 {
 	position: relative;
-	top: 35em;
 	 display: block;
 	 margin-left: auto;
 	 margin-right: auto;
 	 width: 2em;
-  
-	left:92%;
-
+	left: 30%;
 	max-width: 2em;
 	padding: 1em;
 	height: auto;
@@ -277,13 +324,7 @@ input
 	width: 90em;
 	max-width: 90%;
 }
-@media screen and (max-width: 72em)
-{
-	.column
-	{
-		width: 100%;
-	}
-}
+
 
 header
 {
